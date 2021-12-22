@@ -1,0 +1,15 @@
+set logging file script_2_logger
+set logging on 
+b 40
+run -100 100 3
+printf "@@@%d %d %d\n", M, N, S
+set $counter = 1
+while $counter < 36
+    if ($counter <= 35) && ($counter >= 28)
+        printf "@@@%d\n", i
+    end
+    set $counter++
+    c
+end
+set logging off
+q
