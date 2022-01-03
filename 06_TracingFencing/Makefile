@@ -1,5 +1,5 @@
 GEN = safe.so move
-TRASH = igoPROTECTed newfile newfile2
+TRASH = igoPROTECTed newfile newfile2 killme
 
 test: safe.so move
 	ls | cat > igodeleted
@@ -10,6 +10,7 @@ test: safe.so move
 	if [ -f igoPROTECTed ]; then echo "not deleted)"; else echo "deleted("; fi
 	if [ -f newfile ] && [ -f newfile2 ]; then echo "exist)"; else echo "not exist("; fi
 	sh tests
+
 move: move.c
 	gcc -O0 -g move.c -o move
 
