@@ -34,9 +34,10 @@ int main(int argc, char *argv[]){
 				if(substitution[i + 1] == '\\'){
 					printf("\\");
 					++i;
-				} else if(int_ch <= 9 || int_ch >= 0){
+				} else if(int_ch <= 9 && int_ch >= 0){
 					if(pmatch[int_ch].rm_so < 0){
 						fprintf(stderr, "invalid reference '\\%c'\n", substitution[i + 1]);
+						regfree(&regex);
 						return 1;
 					} else {
 						for(int j = pmatch[int_ch].rm_so; j < pmatch[int_ch].rm_eo; ++j) printf("%c", string[j]);
