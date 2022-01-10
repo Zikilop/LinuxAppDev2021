@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-10 03:57+0300\n"
+"POT-Creation-Date: 2022-01-10 17:56+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Egor <zikilop@yandex.ru>\n"
 "Language-Team: l <Ll@li.org>\n"
@@ -29,20 +29,20 @@ msgstr ""
 
 #: ../src/founder.c:19
 #, c-format
-msgid "error: wrong input, too many symbols\n"
+msgid "error: wrong input\n"
 msgstr ""
 
 #: ../src/founder.c:22
-msgid "y"
+msgid "y\n"
 msgstr ""
 
 #: ../src/founder.c:24
-msgid "n"
+msgid "n\n"
 msgstr ""
 
 #: ../src/founder.c:27
 #, c-format
-msgid "error: wrong input, 1st symbol must be 'y' or 'n'\n"
+msgid "error: wrong input, symbol must be 'y' or 'n'\n"
 msgstr ""
 
 #: ../src/founder.c:38

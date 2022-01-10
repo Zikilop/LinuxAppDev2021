@@ -30,21 +30,21 @@ msgstr "д или н?\n"
 
 #: ../src/founder.c:19
 #, c-format
-msgid "error: wrong input, too many symbols\n"
-msgstr "ошибка: неправильный ввод, слишком много символов\n"
+msgid "error: wrong input\n"
+msgstr "ошибка: неправильный ввод\n"
 
 #: ../src/founder.c:22
-msgid "y"
-msgstr "д"
+msgid "y\n"
+msgstr "д\n"
 
 #: ../src/founder.c:24
-msgid "n"
-msgstr "н"
+msgid "n\n"
+msgstr "н\n"
 
 #: ../src/founder.c:27
 #, c-format
-msgid "error: wrong input, 1st symbol must be 'y' or 'n'\n"
-msgstr "ошибка: неправильный ввод, 1й символ должен быть 'д' или 'н'\n"
+msgid "error: wrong input, symbol must be 'y' or 'n'\n"
+msgstr "ошибка: неправильный ввод, символ должен быть 'д' или 'н'\n"
 
 #: ../src/founder.c:38
 #, c-format
